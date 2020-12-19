@@ -1,0 +1,75 @@
+body {
+  font-family: 'Poppins', sans-serif; }
+  body .board {
+    background-color: rgb(227 227 227);
+    border-radius: 1%;
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    min-height: 94vh; }
+    body .board h1 {
+      padding: 10px;
+      font-size: 40px; }
+    body .board button {
+      display: inline;
+      margin: 5px;
+      padding: 5px;
+      border-bottom: 1px solid rgba( 28, 227, 125, 0.5 );
+      background: rgb(22, 230, 137, 1);
+    color: #fff;
+      border: none;
+      border-radius: 4px;
+      font-size: 15px; }
+    body .board .btn-delete {
+      padding: 0 5px;
+      background-color: #598392;
+      border-bottom: 1px solid rgba( 28, 227, 125, 0.5 );
+      background: rgb(244,85,74);
+      color: #fff;
+      box-shadow: 0px 0px 0px rgba( 15, 165, 60, 0.1 ); }
+    body .board .column-container {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap; }
+      body .board .column-container .column {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        width: 25vw;
+        background-color: rgb(249,249,249);
+        padding: 15px;
+        box-shadow: 0 20px 30px 0 rgba(1, 1, 1, 0.07);
+        margin: 15px;
+        border-radius: 5%; }
+        body .board .column-container .column h2 {
+          font-style: bold;
+          font-size: 25px; }
+        body .board .column-container .column .column-card-list {
+          min-height: 150px;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: center;
+          flex-wrap: wrap; }
+          body .board .column-container .column .column-card-list .card {
+            list-style-type: none;
+            background-color: #F1F1F1;
+            box-shadow: 0 20px 30px 0 rgba(1, 1, 1, 0.07);
+            background-color: #fff;
+            margin-bottom: 5px;
+            position: relative;
+            border-right: 0px solid lightgray;
+            letter-spacing: -.015rem;
+            will-change: transform;
+            border-radius: 5%;
+            margin: 15px;
+            min-width: 15%;
+            max-width: 80%; }
+            body .board .column-container .column .column-card-list .card p {
+              padding: 10px;
+              margin: 5px 10px; }
+            body .board .column-container .column .column-card-list .card .btn-delete {
+              background-color: #D9534F;
+              float: left; }
